@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+      <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <title>Responsive shoe website - Bedimcode</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+          <a class="nav__logo" href="#">
+            <img src="./assets/img/logo.svg" alt="image">
+          </a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Men</a>
+              </li>
+
+              <li class="nav__item">
+                <a class="nav__link" href="#">Women</a>
+              </li>
+
+              <li class="nav__item">
+                <a class="nav__link" href="#">Popular</a>
+              </li>
+              
+              <li class="nav__item">
+                <a class="nav__link" href="#">Trend</a>
+              </li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+              <i class="ri-close-line"></i>
+            </div>
+          </div>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-fill"></i>
+          </div>
+         </nav>
+      </header>
+
+      <main>
+         <section class="home">
+            <div class="home__container container">
+              <div class="home__data">
+                <h2 class="home__subtitle">NIKE</h2>
+                <h1 class="home__title">
+                  LUPINEK <br>
+                  FLYKNIT <br>
+                  ACG
+                </h1>
+                <p class="home__description">
+                  Designed to withstand the rigors of adverse 
+                  conditions, the Nike ACC Flyknit Lupinek combines 
+                  flyknit, Flywire and a water-resistant Defender 
+                  Repellent system in the upper.
+                </p>
+                <a class="home__button" href="#">BUY NOW</a>
+              </div>
+
+              <div class="home__images">
+                <div class="home__circle"></div>
+                <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                    <article class="home__article swiper-slide">
+                      <img class="home__shoe" src="./assets/img/shoe-1.png" alt="image">
+                    </article>
+
+                    <article class="home__article swiper-slide">
+                      <img class="home__shoe" src="./assets/img/shoe-2.png" alt="image">
+                    </article>
+
+                    <article class="home__article swiper-slide">
+                      <img class="home__shoe" src="./assets/img/shoe-3.png" alt="image">
+                    </article>
+                  </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="home__social">
+                <a class="home__social-link" href="https://www.facebook.com/" target="_blank">
+                  <i class="ri-facebook-circle-fill"></i>
+                </a>
+                <a class="home__social-link" href="https://www.instagram.com/" target="_blank">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+                <a class="home__social-link" href="https://www.youtube.com/" target="_blank">
+                  <i class="ri-youtube-fill"></i>
+                </a>
+              </div>
+            </div>
+         </section>
+      </main>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="./assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
